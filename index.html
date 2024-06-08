@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>O Fosso BR</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="icon" type="image/png" href="Imagens/D4BuildsBrasil.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Exocet&display=swap">
+</head>
+<body>
+    <header>
+        <div class="center">
+            <div class="logo">
+                <img src="oFosso.png" />
+            </div>
+            <div class="menu">
+                <a href="https://discord.gg/9PUs8C9S">Discord</a>
+                <a href="https://www.youtube.com/@VELOSODIABLO4">Youtube</a>
+                <a href="X">Sobre</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="center">
+        <div class="texto-sobre">
+            <h1 class="diablo-title">Ranqueada <br>⋄ The Pit ⋄ </h1>
+        </div>
+    </div>
+
+    <div class="center">
+        <div class="regras">
+            <h2>REGRAS</h2>
+            <ul>
+                <li> O <strong>ranqueamento geral</strong> possui uma restrição de tier, assim, só entra nessa tabela quem conseguiu fazer o <strong>tier 80+</strong>.</li>
+                <li> O <strong>ranqueamento de classe</strong> exige um pouco menos, <strong>tier 60+</strong> já pode entrar na tabela.</li>
+                <li> É um ranqueamento brasileiro, logo, aqui é das ruas, pode usar elixir, pode usar bug, pode usar tudo, contanto que o vídeo fazendo o fosso seja enviado no nosso Discord.</li>
+                <li> Para participar basta acessar o nosso <a href="https://discord.gg/9PUs8C9S" target="_blank">Discord</a> e enviar o link do seu vídeo (que deve ser postado no YouTube) preenchendo o formulário corretamente.</li>
+                <li> Caso você for enviar outro vídeo fazendo um tier maior com a mesma classe, deixar enaltecido no formulário que se trata de uma <strong>ATUALIZAÇÃO</strong>.</li>
+            </ul>
+        </div>
+
+        <!-- Filter links -->
+        <div class="filter-links">
+            <a href="javascript:void(0);" onclick="filterTable('')" class="filter-link" style="margin-right: 20px;">Geral</a>
+            <a href="javascript:void(0);" onclick="filterTable('Mago')" class="filter-link">Mago</a>
+            <a href="javascript:void(0);" onclick="filterTable('Bárbaro')" class="filter-link">Bárbaro</a>
+            <a href="javascript:void(0);" onclick="filterTable('Druída')" class="filter-link">Druída</a>
+            <a href="javascript:void(0);" onclick="filterTable('Rogue')" class="filter-link">Rogue</a>
+            <a href="javascript:void(0);" onclick="filterTable('Necromante')" class="filter-link">Necromante</a>
+        </div>
+
+        <table class="ranking">
+            <thead>
+                <tr>
+                    <th>Posição</th>
+                    <th>Classe</th>
+                    <th>Build</th>
+                    <th>Nome</th>
+                    <th>Tier</th>
+                    <th>Tempo</th>
+                    <th>Vídeo</th>
+                </tr>
+            </thead>
+            <tbody id="ranking-body">
+                <!-- Rows will be populated by JavaScript -->
+            </tbody>
+        </table>
+    </div>
+
+    <footer>
+        <img src="logo.png" alt="YouTube Builds" class="larger-image">
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
