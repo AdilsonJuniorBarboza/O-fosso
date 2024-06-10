@@ -236,22 +236,67 @@ footer img {
     font-family: 'MedievalSharp', serif;
 }
 
-/* Existing CSS styles */
+.texto-sobre {
+    text-align: center;
+    margin: 50px 0;
+}
 
-#table {
+.diablo-title {
+    font-size: 48px;
+    font-weight: 700;
+    color: #D41C1C;
+    text-shadow: 0 0 10px #D41C1C, 0 0 20px #D41C1C, 0 0 30px #D41C1C;
+    border-bottom: 0; /* Removendo a borda inferior */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.tierlist {
+    margin-top: 50px;
+}
+
+.tier-row {
     display: flex;
-    flex-direction: column;
-    font: 16px Tahoma;
-  }
-  
-  #table > .row {
-    padding: 8px;
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .row:hover {
-    color: white;
-    background-color: blue;
-  }
-  
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.tier-cell {
+    width: 300px;
+    height: 200px;
+    margin: 0 10px;
+    overflow: hidden;
+    position: relative;
+    background-color: #161515; /* Adicionando fundo cinza claro */
+}
+
+.tier-cell img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border: none; /* Removendo a borda */
+}
+
+
+
+.rank-label {
+    width: 50px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    background-color: #333;
+}
+
+.S {
+    border-color: #D41C1C; /* Cor para builds rank S */
+}
+
+.A {
+    border-color: #00BFFF; /* Cor para builds rank A */
+}
+
+.B {
+    border-color: #008000; /* Cor para builds rank B */
+}
