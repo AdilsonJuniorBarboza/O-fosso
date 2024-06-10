@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exocet&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Cinzel', serif;
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    margin-bottom: 80px;
+}
+
+header {
+    background-color: #111;
+    padding: 10px 0;
+    border-bottom: 1px solid #444;
+}
+
+.center {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.logo img {
+    width: 300px;
+    height: 60px;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.menu a:hover {
+    color: #D41C1C;
+}
+
+.texto-sobre {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.texto-sobre h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0;
+    color: #FFFFFF;
+}
+
+.texto-sobre span {
+    color: #e0e0e0;
+}
+
+.nova-imagem img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 50px auto;
+}
+
+section.sobre {
+    padding: 50px 0;
+    background-color: #111;
+    color: #e0e0e0;
+    text-align: center;
+}
+
+.diablo {
+    font-size: 72px;
+    font-weight: 700;
+    color: #D41C1C;
+    text-shadow: 0 0 10px #D41C1C, 0 0 20px #D41C1C, 0 0 30px #D41C1C;
+    margin: 20px 0;
+}
+
+table.ranking {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 50px 0;
+}
+
+table.ranking th, table.ranking td {
+    border: 1px solid #444;
+    padding: 10px;
+    text-align: center;
+}
+
+table.ranking th {
+    background-color: #333;
+    color: #e0e0e0;
+    font-weight: 700;
+}
+
+table.ranking td a {
+    color: #00BFFF;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+table.ranking td a:hover {
+    color: #00BFFF;
+}
+
+.diablo-title {
+    font-size: 48px;
+    font-weight: 700;
+    color: #D41C1C;
+    text-shadow: 0 0 10px #D41C1C, 0 0 20px #D41C1C, 0 0 30px #D41C1C;
+    border-bottom: 0;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.regras {
+    margin-bottom: 50px;
+}
+
+.regras h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #D41C1C;
+    margin-bottom: 10px;
+}
+
+.regras ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.regras ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.regras ul li:before {
+    content: "•";
+    color: #D41C1C;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.regras ul li a {
+    color: #1E90FF;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.regras ul li a:hover {
+    color: #00BFFF;
+}
+
+.filter-links, .filter-general {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.filter-link {
+    color: #BBBBBB;
+    font-family: 'Exocet', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 5px 10px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.filter-link:hover {
+    color: #b31414;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #111;
+    padding: 10px 0;
+    text-align: center;
+    color: #fff;
+    z-index: 1000;
+}
+
+footer img {
+    margin: 0 20px;
+    vertical-align: middle;
+}
+
+.larger-image {
+    width: 100px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.diablo-button {
+    background-color: #260202;
+    color: #e1c481;
+    font-family: 'Exocet', serif;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 15px 30px;
+    margin: 0 10px;
+    border: 2px solid #D41C1C;
+    border-radius: 8px;
+    text-shadow: 0 0 5px #000, 0 0 10px #D41C1C;
+    box-shadow: inset 0 0 5px #000, 0 0 10px #000;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    background-image: url('path_to_texture_image.jpg');
+    background-size: cover;
+}
+
+.diablo-button:hover {
+    background-color: #D41C1C;
+    transform: scale(1.1);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+.diablo-button {
+    font-family: 'MedievalSharp', serif;
+}
+
+.texto-sobre {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.diablo-title {
+    font-size: 48px;
+    font-weight: 700;
+    color: #D41C1C;
+    text-shadow: 0 0 10px #D41C1C, 0 0 20px #D41C1C, 0 0 30px #D41C1C;
+    border-bottom: 0;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.tier-cell img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border: none;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.tier-cell img:hover {
+    transform: scale(1.1);
+    opacity: 0.7;
+}
+
+.video-frame {
+    width: 80%;
+    max-width: 1000px;
+    margin: 20px auto;
+    border: 4px solid #D41C1C;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.video-frame iframe {
+    width: 100%;
+    height: 450px;
+}
