@@ -288,6 +288,7 @@ footer img {
     font-size: 12px; /* Tamanho do texto */
     color: #fff; /* Cor do texto */
     margin-top: 3px; /* Adicionando margem superior */
+
 }
 
 .supporter-content {
@@ -308,9 +309,17 @@ footer img {
 .thin-bar {
     margin-top: 2px; /* Adiciona espaçamento superior de 10px */
     background-color: #000000;
+    display: flex;
 }
 
 #hardcoretierlevel {
 
     color: rgb(182, 14, 14);
+}
+
+#textoapoiadoresinfo {
+
+    font-size: 13px;
+    color: #8a8885;
+    margin-left: 5px;
 }
