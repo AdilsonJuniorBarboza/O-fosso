@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { classe: 'Rogue', build: 'Heartseeker', nome: 'Junin', tier: 113, tempo: '14:19', modo: 'SC', video: 'https://youtu.be/kTVMPcm7IV4' },
         { classe: 'Rogue', build: 'Heartseeker', nome: 'Veloso', tier: 110, tempo: '7:15', modo: 'SC', video: 'https://youtu.be/sAZwc2cc8t0?si=Efck8qAbZL-KYstU' },
         { classe: 'Druída', build: 'Wind Shear', nome: 'Junin', tier: 105, tempo: '12:28', modo: 'SC', video: 'https://youtu.be/LFjy_89r1uc?si=pkB15t1EBXu0Ew1f' },
-        { classe: 'Mago', build: 'BILADA', nome: 'Cu de apito', tier: 90, tempo: '12:28', modo: 'HC', video: 'https://youtu.be/LFjy_89r1uc?si=pkB15t1EBXu0Ew1f' },
+        { classe: 'Necromante', build: 'Shadow Mage', nome: 'Offo_hc', tier: 79, tempo: '5:03', modo: 'HC', video: 'https://clips.twitch.tv/OptimisticKindHippoNotATK-N-8D1qH9x4N2rbo_' },
     ];
 
     rankingData.sort((a, b) => {
