@@ -1,22 +1,20 @@
 document.addEventListener('DOMContentLoaded', () => {
     let rankingData = [
-        { classe: 'Bárbaro', build: 'Bash/Bleed', nome: 'Shelby', tier: 119, tempo: '7:54', video: 'https://www.youtube.com/watch?v=Gwu-mZ2iHqQ' },       
-        { classe: 'Bárbaro', build: 'Thorns(Espinhos)', nome: 'Tanure', tier: 114, tempo: '9:57', video: 'https://youtu.be/NPQvHUZcEpI' },
-        { classe: 'Rogue', build: 'Heartseeker', nome: 'Junin', tier: 113, tempo: '14:19', video: 'https://youtu.be/kTVMPcm7IV4' },
-        { classe: 'Rogue', build: 'Heartseeker', nome: 'Veloso', tier: 110, tempo: '7:15', video: 'https://youtu.be/sAZwc2cc8t0?si=Efck8qAbZL-KYstU' },
-        { classe: 'Druída', build: 'Wind Shear', nome: 'Junin', tier: 105, tempo: '12:28', video: 'https://youtu.be/LFjy_89r1uc?si=pkB15t1EBXu0Ew1f' },
-
+        { classe: 'Bárbaro', build: 'Bash/Bleed', nome: 'Shelby', tier: 119, tempo: '7:54', modo: 'SC', video: 'https://www.youtube.com/watch?v=Gwu-mZ2iHqQ' },
+        { classe: 'Bárbaro', build: 'Thorns(Espinhos)', nome: 'Tanure', tier: 114, tempo: '9:57', modo: 'SC', video: 'https://youtu.be/NPQvHUZcEpI' },
+        { classe: 'Rogue', build: 'Heartseeker', nome: 'Junin', tier: 113, tempo: '14:19', modo: 'SC', video: 'https://youtu.be/kTVMPcm7IV4' },
+        { classe: 'Rogue', build: 'Heartseeker', nome: 'Veloso', tier: 110, tempo: '7:15', modo: 'SC', video: 'https://youtu.be/sAZwc2cc8t0?si=Efck8qAbZL-KYstU' },
+        { classe: 'Druída', build: 'Wind Shear', nome: 'Junin', tier: 105, tempo: '12:28', modo: 'SC', video: 'https://youtu.be/LFjy_89r1uc?si=pkB15t1EBXu0Ew1f' },
+        { classe: 'Mago', build: 'BILADA', nome: 'Cu de apito', tier: 90, tempo: '12:28', modo: 'HC', video: 'https://youtu.be/LFjy_89r1uc?si=pkB15t1EBXu0Ew1f' },
     ];
 
     rankingData.sort((a, b) => {
-        // Ordena pelo tier, se o tier for igual, ordena pelo tempo
         if (a.tier !== b.tier) {
-            return b.tier - a.tier; // Maior tier vem primeiro
+            return b.tier - a.tier;
         } else {
-            // Se o tier for igual, ordena pelo tempo mais rápido
             const aTime = parseTime(a.tempo);
             const bTime = parseTime(b.tempo);
-            return aTime - bTime; // Menor tempo vem primeiro
+            return aTime - bTime;
         }
     });
 
@@ -32,6 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <td>${row.nome}</td>
                 <td>${row.tier}</td>
                 <td>${row.tempo}</td>
+                <td class="${row.modo === 'HC' ? 'modo-hc' : ''}">${row.modo}</td> <!-- Adicionando a classe condicionalmente -->
                 <td><a href="${row.video}" target="_blank">Link</a></td>
             `;
             tbody.appendChild(tr);
@@ -42,11 +41,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
     window.filterTable = function(classe) {
         if (classe === '') {
-            tbody.innerHTML = ''; // Limpa o conteúdo da tabela
+            tbody.innerHTML = '';
             populateTable(rankingData);
+        } else if (classe === 'HC') {
+            const filteredData = rankingData.filter(row => row.modo === 'HC');
+            tbody.innerHTML = '';
+            populateTable(filteredData);
         } else {
             const filteredData = rankingData.filter(row => row.classe === classe);
-            tbody.innerHTML = ''; // Limpa o conteúdo da tabela
+            tbody.innerHTML = '';
             populateTable(filteredData);
         }
     }

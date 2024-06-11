@@ -255,3 +255,15 @@ footer img {
     background-color: blue;
   }
   
+  .modo-hc {
+    color: red;
+}
+
+#BotaoHardcore {
+    color: rgb(161, 19, 19); /* Cor vermelha padrão */
+    transition: color 0.3s ease; /* Transição suave para a mudança de cor */
+}
+
+#BotaoHardcore:hover {
+    color: darkred; /* Cor vermelho escuro quando passa o mouse */
+}
