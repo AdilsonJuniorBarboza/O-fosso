@@ -267,3 +267,47 @@ footer img {
 #BotaoHardcore:hover {
     color: darkred; /* Cor vermelho escuro quando passa o mouse */
 }
+
+.supporter {
+    margin: 0 10px; /* Espaçamento entre os apoiadores */
+    display: inline-flex; /* Exibe os apoiadores em linha */
+}
+
+.supporter-content {
+    display: flex;
+    align-items: center;
+}
+
+.supporter img {
+    width: 15px; /* Largura do ícone */
+    height: 15px; /* Altura do ícone */
+    margin-right: 5px; /* Espaçamento entre o ícone e o nome */
+}
+
+.supporter span {
+    font-size: 12px; /* Tamanho do texto */
+    color: #fff; /* Cor do texto */
+    margin-top: 3px; /* Adicionando margem superior */
+}
+
+.supporter-content {
+    margin-right: 20px; /* Adiciona espaçamento entre cada apoiador */
+}
+
+.supporter-content a {
+    color: #fff; /* Define a cor do texto */
+    text-decoration: none; /* Remove a decoração de texto padrão */
+    display: inline-block; /* Permite que o link se comporte como um bloco, tornando o nome clicável */
+    transition: color 0.3s ease; /* Adiciona uma transição suave de cor */
+}
+
+.supporter-content a:hover {
+    color: #D41C1C; /* Altera a cor do texto ao passar o mouse */
+}
+
+.thin-bar {
+    margin-top: 2px; /* Adiciona espaçamento superior de 10px */
+    background-color: #000000;
+}
+
+
