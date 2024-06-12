@@ -9,6 +9,8 @@ document.addEventListener('DOMContentLoaded', () => {
         { classe: 'Bárbaro', build: 'Bash', nome: 'Meganord', tier: 122, tempo: '10:08', modo: 'SC', video: 'https://youtu.be/W7omv2NMSVQ?si=g3aO8YjDGWMHs9fU' },
         { classe: 'Rogue', build: 'Heartseeker', nome: 'Winester', tier: 70, tempo: '4:44', modo: 'HC', video: 'https://www.youtube.com/watch?v=DXBKPXSnM6k' },
         { classe: 'Bárbaro', build: 'Bash/Bleed', nome: 'Try', tier: 122, tempo: '11:15', modo: 'SC', video: 'https://youtu.be/r4bXK-DmDz8?si=hiAwWZwfoSA7oOWB' },
+        { classe: 'Necromante', build: 'Bone spear minion', nome: 'Fleezao', tier: 112, tempo: '9:22', modo: 'SC', video: 'https://www.youtube.com/watch?v=jVecyhfYsro&t=22s&ab_channel=Fleezao' },
+
     ];
 
     rankingData.sort((a, b) => {
