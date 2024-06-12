@@ -112,7 +112,7 @@ table.ranking td a:hover {
     font-size: 48px;
     font-weight: 700;
     color: #D41C1C;
-    text-shadow: 0 0 10px #D41C1C, 0 0 20px #D41C1C, 0 0 30px #D41C1C;
+    text-shadow: 0 0 10px #861212, 0 0 20px #861b1b, 0 0 30px #8b1919;
     border-bottom: 0; /* Removendo a borda inferior */
     padding-bottom: 10px;
     margin-bottom: 20px;
