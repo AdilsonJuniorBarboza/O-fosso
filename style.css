@@ -323,3 +323,35 @@ footer img {
     color: #8a8885;
     margin-left: 5px;
 }
+
+@media (max-width: 768px) {
+    .thin-bar {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 0;
+    }
+
+    .supporter {
+        display: flex;
+        flex-wrap: wrap; /* Permite a quebra de linha */
+        justify-content: center; /* Centraliza os itens */
+    }
+
+    .supporter-content {
+        flex: 1 1 45%; /* Ajusta a largura dos itens para 45% */
+        margin: 5px; /* Adiciona espaçamento entre os itens */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .supporter-content a {
+        font-size: 14px;
+    }
+
+    .supporter img {
+        width: 20px;
+        height: 20px;
+    }
+}
+
