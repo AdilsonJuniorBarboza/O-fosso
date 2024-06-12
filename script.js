@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { classe: 'Necromante', build: 'Bone spear minion', nome: 'Fleezao', tier: 112, tempo: '9:22', modo: 'SC', video: 'https://www.youtube.com/watch?v=jVecyhfYsro&t=22s&ab_channel=Fleezao' },
         { classe: 'Rogue', build: 'Heartseeker', nome: 'Shineray', tier: 128, tempo: '14:24', modo: 'SC', video: 'https://www.youtube.com/watch?v=-TiyNQhV99g' },
         { classe: 'Necromante', build: 'Shadow Golem', nome: 'ViTiN', tier: 130, tempo: '14:10', modo: 'SC', video: 'https://www.youtube.com/watch?v=FDiUrSIuQR8&ab_channel=VitorQueiroz' },
-        { classe: 'Bárbaro', build: 'Bash/Bleed/HotA', nome: 'Gripp', tier: 129, tempo: '10:17', modo: 'SC', video: 'https://youtu.be/aZRwUNp9n1U?si=WIp6WN5csIECoR7A' },
+        { classe: 'Bárbaro', build: 'Bleed/HotA', nome: 'Gripp', tier: 131, tempo: '9:30', modo: 'SC', video: 'https://youtu.be/4Y7wOL8pYxI?si=LouMqu5nI1DbefHh' },
     ];
 
     rankingData.sort((a, b) => {
