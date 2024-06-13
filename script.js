@@ -15,6 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { classe: 'Bárbaro', build: 'Bleed/HotA', nome: 'Gripp', tier: 131, tempo: '9:30', modo: 'SC', video: 'https://youtu.be/4Y7wOL8pYxI?si=LouMqu5nI1DbefHh' },
         { classe: 'Rogue', build: 'Andariel Flurry', nome: 'Seonuk', tier: 110, tempo: '4:49', modo: 'SC', video: 'https://www.youtube.com/watch?v=hq848TPtRiQ' },
         { classe: 'Mago', build: 'Nevasca(Blizzard)', nome: 'Léo Quixeré', tier: 100, tempo: '9:32', modo: 'SC', video: 'https://www.youtube.com/watch?v=1yoMvTQz9iA&t=8s' },
+        { classe: 'Mago', build: 'Immortal Frozen Orb', nome: 'Seonuk', tier: 113, tempo: '10:06', modo: 'SC', video: 'https://www.youtube.com/watch?v=k7nyM1uwOeQ' },
     ];
 
     rankingData.sort((a, b) => {
