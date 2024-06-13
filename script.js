@@ -16,7 +16,9 @@ document.addEventListener('DOMContentLoaded', () => {
         { classe: 'Rogue', build: 'Andariel Flurry', nome: 'Seonuk', tier: 110, tempo: '4:49', modo: 'SC', video: 'https://www.youtube.com/watch?v=hq848TPtRiQ' },
         { classe: 'Mago', build: 'Nevasca(Blizzard)', nome: 'Léo Quixeré', tier: 100, tempo: '9:32', modo: 'SC', video: 'https://www.youtube.com/watch?v=1yoMvTQz9iA&t=8s' },
         { classe: 'Mago', build: 'Immortal Frozen Orb', nome: 'Hisoka', tier: 113, tempo: '10:06', modo: 'SC', video: 'https://www.youtube.com/watch?v=k7nyM1uwOeQ' },
-        { classe: 'Necromante', build: 'Shadow Golem', nome: 'Hisoka', tier: 124, tempo: '7:52', modo: 'SC', video: 'https://www.youtube.com/watch?v=7J0EIrIwwyg&ab_channel=VilasBoas' },
+        { classe: 'Necromante', build: 'Shadow Golem', nome: 'VilasBoas', tier: 124, tempo: '7:52', modo: 'SC', video: 'https://www.youtube.com/watch?v=7J0EIrIwwyg&ab_channel=VilasBoas' },
+        { classe: 'Bárbaro', build: 'Tyrael bash + bleed (frankestein hibrido)', nome: 'xLordByKoNx', tier: 122, tempo: '10:12', modo: 'SC', video: 'https://www.youtube.com/watch?v=zoOtF69-oZo' },
+        { classe: 'Mago', build: 'Firekuna Shatter (Versão com inferno)', nome: 'Shineray', tier: 129, tempo: '12:41', modo: 'SC', video: 'https://www.youtube.com/watch?v=IUTs2siyIQY' },
     ];
 
     rankingData.sort((a, b) => {
