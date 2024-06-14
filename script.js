@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { classe: 'Mago', build: 'Immortal Frozen Orb', nome: 'Hisoka', tier: 113, tempo: '10:06', modo: 'SC', video: 'https://www.youtube.com/watch?v=k7nyM1uwOeQ' },
         { classe: 'Necromante', build: 'Shadow Golem', nome: 'VilasBoas', tier: 124, tempo: '7:52', modo: 'SC', video: 'https://www.youtube.com/watch?v=7J0EIrIwwyg&ab_channel=VilasBoas' },
         { classe: 'Bárbaro', build: 'Tyrael bash + bleed (frankestein hibrido)', nome: 'xLordByKoNx', tier: 122, tempo: '10:12', modo: 'SC', video: 'https://www.youtube.com/watch?v=zoOtF69-oZo' },
-        { classe: 'Mago', build: 'Firekuna Shatter (Versão com inferno)', nome: 'Shineray', tier: 129, tempo: '12:41', modo: 'SC', video: 'https://www.youtube.com/watch?v=IUTs2siyIQY' },
+        { classe: 'Mago', build: 'Firekuna Shatter (Versão com inferno)', nome: 'Shineray', tier: 132, tempo: '12:54', modo: 'SC', video: 'https://youtu.be/Jk-QNVGniz4' },
         { classe: 'Rogue', build: 'Heartseeker', nome: 'JahIthBer', tier: 102, tempo: '08:28', modo: 'SC', video: 'https://www.youtube.com/watch?v=wBpcKvlMS9U' },
         { classe: 'Rogue', build: 'Heartseeker', nome: 'defreshXD', tier: 123, tempo: '13:57', modo: 'SC', video: 'https://www.youtube.com/watch?v=lOpOXU8QMzU' },
     ];
