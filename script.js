@@ -21,6 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { classe: 'Mago', build: 'Firekuna Shatter (Versão com inferno)', nome: 'Shineray', tier: 132, tempo: '12:54', modo: 'SC', video: 'https://youtu.be/Jk-QNVGniz4' },
         { classe: 'Rogue', build: 'Heartseeker', nome: 'JahIthBer', tier: 102, tempo: '08:28', modo: 'SC', video: 'https://www.youtube.com/watch?v=wBpcKvlMS9U' },
         { classe: 'Rogue', build: 'Heartseeker', nome: 'defreshXD', tier: 123, tempo: '13:57', modo: 'SC', video: 'https://www.youtube.com/watch?v=lOpOXU8QMzU' },
+        { classe: 'Rogue', build: 'Heartseeker', nome: 'DECO', tier: 100, tempo: '9:14', modo: 'SC', video: 'https://youtu.be/vLPwkz6D4sY?si=vFTlLvvioCD4uMdH' },
     ];
 // { classe: '', build: '', nome: '', tier: 0, tempo: '', modo: 'SC', video: '' },
     rankingData.sort((a, b) => {
