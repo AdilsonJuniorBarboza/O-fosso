@@ -19,8 +19,10 @@ document.addEventListener('DOMContentLoaded', () => {
         { classe: 'Necromante', build: 'Shadow Golem', nome: 'VilasBoas', tier: 124, tempo: '7:52', modo: 'SC', video: 'https://www.youtube.com/watch?v=7J0EIrIwwyg&ab_channel=VilasBoas' },
         { classe: 'Bárbaro', build: 'Tyrael bash + bleed (frankestein hibrido)', nome: 'xLordByKoNx', tier: 122, tempo: '10:12', modo: 'SC', video: 'https://www.youtube.com/watch?v=zoOtF69-oZo' },
         { classe: 'Mago', build: 'Firekuna Shatter (Versão com inferno)', nome: 'Shineray', tier: 129, tempo: '12:41', modo: 'SC', video: 'https://www.youtube.com/watch?v=IUTs2siyIQY' },
+        { classe: 'Rogue', build: 'Heartseeker', nome: 'JahIthBer', tier: 102, tempo: '08:28', modo: 'SC', video: 'https://www.youtube.com/watch?v=wBpcKvlMS9U' },
+        { classe: 'Rogue', build: 'Heartseeker', nome: 'defreshXD', tier: 123, tempo: '13:57', modo: 'SC', video: 'https://www.youtube.com/watch?v=lOpOXU8QMzU' },
     ];
-
+// { classe: '', build: '', nome: '', tier: 0, tempo: '', modo: 'SC', video: '' },
     rankingData.sort((a, b) => {
         if (a.tier !== b.tier) {
             return b.tier - a.tier;
