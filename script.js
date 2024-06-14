@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { classe: 'Necromante', build: 'Shadow Golem', nome: 'Offo_hc', tier: 82, tempo: '5:03', modo: 'HC', video: 'https://clips.twitch.tv/MoldyFuriousAnacondaDatBoi-L3BzBiwpWDM58m3R' },
         { classe: 'Bárbaro', build: 'Bash', nome: 'Meganord', tier: 122, tempo: '10:08', modo: 'SC', video: 'https://youtu.be/W7omv2NMSVQ?si=g3aO8YjDGWMHs9fU' },
         { classe: 'Rogue', build: 'Heartseeker', nome: 'Winester', tier: 85, tempo: '4:51', modo: 'HC', video: 'https://www.youtube.com/watch?v=bafY1MbNIPg' },
-        { classe: 'Bárbaro', build: 'Bash/Bleed', nome: 'Try', tier: 124, tempo: '13:07', modo: 'SC', video: 'https://youtu.be/8r1S5adJBXk?si=1b6kFAFDbCRpdCY-' },
+        { classe: 'Bárbaro', build: 'Bash/Bleed', nome: 'Try', tier: 127, tempo: '12:30', modo: 'SC', video: 'https://youtu.be/gjPg_i54IdM?si=eE1GuGP5XFW2gBs5' },
         { classe: 'Necromante', build: 'Bone spear minion', nome: 'Fleezao', tier: 112, tempo: '9:22', modo: 'SC', video: 'https://www.youtube.com/watch?v=jVecyhfYsro&t=22s&ab_channel=Fleezao' },
         { classe: 'Rogue', build: 'Heartseeker', nome: 'Shineray', tier: 128, tempo: '14:24', modo: 'SC', video: 'https://www.youtube.com/watch?v=-TiyNQhV99g' },
         { classe: 'Necromante', build: 'Shadow Golem', nome: 'ViTiN', tier: 130, tempo: '14:10', modo: 'SC', video: 'https://www.youtube.com/watch?v=FDiUrSIuQR8&ab_channel=VitorQueiroz' },
