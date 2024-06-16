@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { classe: 'Bárbaro', build: 'Bleed Bash', nome: 'Bocca', tier: 136, tempo: '14:30 ', modo: 'SC', video: 'https://youtu.be/drofwZiqLnQ' },
         { classe: 'Bárbaro', build: 'Bash', nome: 'Winester', tier: 92, tempo: '6:20', modo: 'HC', video: 'https://www.youtube.com/watch?v=kpSU0GuKLtI' },
         { classe: 'Necromante', build: 'Minions Golem', nome: 'gouggwww', tier: 129, tempo: '5:02', modo: 'SC', video: 'https://www.youtube.com/watch?v=jvBFIeUj0cs' },
-        { classe: 'Bárbaro', build: 'Flay/Rupture Lvl 90', nome: '', tier: 90, tempo: '4:46', modo: 'SC', video: 'https://www.youtube.com/watch?v=gMC5oJw0rsE' },
+        { classe: 'Bárbaro', build: 'Flay/Rupture Lvl 90', nome: 'Shineray', tier: 90, tempo: '4:46', modo: 'SC', video: 'https://www.youtube.com/watch?v=gMC5oJw0rsE' },
         { classe: 'Necromante', build: 'Shadow Golem', nome: 'Lit', tier: 85, tempo: '4:18', modo: 'HC', video: 'https://www.youtube.com/watch?v=lkEgKuYvQKQ' },
     ];
 // { classe: '', build: '', nome: '', tier: 0, tempo: '', modo: 'SC', video: '' },
