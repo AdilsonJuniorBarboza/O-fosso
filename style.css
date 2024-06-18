@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Exocet&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Skranji:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Almendra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+
+
+
 
 body {
     margin: 0;
@@ -51,8 +62,12 @@ header {
     font-size: 48px;
     font-weight: 700;
     margin: 0;
-    color: #FFFFFF;
+    color: #700000;
+    color: transparent; /* Torna o texto transparente */
+    -webkit-background-clip: text;
+    background-clip: text;
 }
+
 
 .texto-sobre span {
     color: #e0e0e0;
@@ -109,14 +124,31 @@ table.ranking td a:hover {
 }
 
 .diablo-title {
+    font-family: 'Cinzel', serif;
     font-size: 48px;
     font-weight: 700;
-    color: #D41C1C;
-    text-shadow: 0 0 10px #861212, 0 0 20px #861b1b, 0 0 30px #8b1919;
-    border-bottom: 0; /* Removendo a borda inferior */
-    padding-bottom: 10px;
-    margin-bottom: 20px;
+    text-align: center;
+    color: transparent; /* Torna o texto transparente */
+    background: linear-gradient(45deg, #250202, #000000, #ff3c3c); /* Adiciona um ciclo de cores */
+    background-size: 300% 300%; /* Necessário para o movimento do gradiente */
+    -webkit-background-clip: text;
+    background-clip: text;
+    animation: gradientMove 8s linear infinite; /* Define a animação */
+    -webkit-text-stroke: 1px #ff3e3e; /* Adiciona uma borda branca fina ao texto */
 }
+
+@keyframes gradientMove {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
 
 .regras {
     margin-bottom: 50px;
@@ -204,6 +236,7 @@ footer img {
     display: flex;
     justify-content: center;
     margin: 20px 0;
+    margin-top: 50px;
 }
 
 .diablo-button {
@@ -233,7 +266,7 @@ footer img {
 @import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
 
 .diablo-button {
-    font-family: 'MedievalSharp', serif;
+    font-family: 'Cinzel', serif;
 }
 
 /* Existing CSS styles */
@@ -353,5 +386,6 @@ footer img {
         width: 20px;
         height: 20px;
     }
+
 }
 
