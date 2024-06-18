@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { classe: 'Necromante', build: 'Minions Golem', nome: 'gouggwww', tier: 129, tempo: '5:02', modo: 'SC', video: 'https://www.youtube.com/watch?v=jvBFIeUj0cs' },
         { classe: 'Bárbaro', build: 'Flay/Rupture', nome: 'Shineray', tier: 116, tempo: '14:42', modo: 'SC', video: 'https://youtu.be/8smwKrSHelk' },
         { classe: 'Necromante', build: 'Shadow Golem', nome: 'Lit', tier: 85, tempo: '4:18', modo: 'HC', video: 'https://www.youtube.com/watch?v=lkEgKuYvQKQ' },
-        { classe: 'Bárbaro', build: 'Espinhos (Sem Uber)', nome: '', tier: 58, tempo: '4:15', modo: 'HC', video: 'https://youtu.be/X5qWjiV4dgM' }, 
+        { classe: 'Bárbaro', build: 'Espinhos (Sem Uber)', nome: 'BBzAUM', tier: 58, tempo: '4:15', modo: 'HC', video: 'https://youtu.be/X5qWjiV4dgM' }, 
         { classe: 'Rogue', build: 'Heartseeker', nome: 'Yago', tier: 86, tempo: '4:17', modo: 'HC', video: 'https://youtu.be/DdkDny4pP0U' },
         { classe: 'Druída', build: 'Pulverize', nome: 'DECO', tier: 80, tempo: '11:20', modo: 'SC', video: 'https://youtu.be/X0xsWH8Njq8?si=fyvNfIqBqkhMPorj' },
         { classe: 'Necromante', build: 'Infinimist', nome: 'Lit', tier: 100, tempo: '06:17', modo: 'HC', video: 'https://www.youtube.com/watch?v=6AtaYGfQ_qo' },
