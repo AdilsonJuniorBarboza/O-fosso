@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { classe: 'Necromante', build: 'Shadow Golem', nome: 'Offo_hc', tier: 109, tempo: '06:11', modo: 'HC', video: 'https://clips.twitch.tv/HeadstrongGeniusPheasantPJSalt-_dLsYXrID0h4t9lS' },
         { classe: 'Bárbaro', build: 'Bash', nome: 'Meganord', tier: 122, tempo: '10:08', modo: 'SC', video: 'https://youtu.be/W7omv2NMSVQ?si=g3aO8YjDGWMHs9fU' },
         { classe: 'Rogue', build: 'Heartseeker', nome: 'Winester', tier: 112, tempo: '10:26', modo: 'HC', video: 'https://www.youtube.com/watch?v=kU5EMzA9v20' },
-        { classe: 'Bárbaro', build: 'Flay/Bleed', nome: 'Try', tier: 130, tempo: '10:19', modo: 'SC', video: 'https://youtu.be/e4SytJEolYk?si=XHJRunUckZSSlyS4' },
+        { classe: 'Bárbaro', build: 'Flay/Bleed', nome: 'Try', tier: 132, tempo: '11:23', modo: 'SC', video: 'https://youtu.be/Ci_r7PwxS_4?si=JBQylwYzEtQjS8K6' },
         { classe: 'Necromante', build: 'Bone spear minion', nome: 'Fleezao', tier: 112, tempo: '9:22', modo: 'SC', video: 'https://www.youtube.com/watch?v=jVecyhfYsro&t=22s&ab_channel=Fleezao' },
         { classe: 'Rogue', build: 'Heartseeker', nome: 'Shineray', tier: 137, tempo: '12:58', modo: 'SC', video: 'https://youtu.be/GgBNAKusGas' },
         { classe: 'Necromante', build: 'Shadow Golem', nome: 'ViTiN', tier: 130, tempo: '14:10', modo: 'SC', video: 'https://www.youtube.com/watch?v=FDiUrSIuQR8&ab_channel=VitorQueiroz' },
@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { classe: 'Mago', build: 'Nevasca(Blizzard)', nome: 'Léo Quixeré', tier: 100, tempo: '9:32', modo: 'SC', video: 'https://www.youtube.com/watch?v=1yoMvTQz9iA&t=8s' },
         { classe: 'Mago', build: 'Immortal Frozen Orb', nome: 'Hisoka', tier: 113, tempo: '10:06', modo: 'SC', video: 'https://www.youtube.com/watch?v=k7nyM1uwOeQ' },
         { classe: 'Necromante', build: 'Shadow Golem', nome: 'VilasBoas', tier: 136, tempo: '14:05', modo: 'SC', video: 'https://youtu.be/XsJ2NrKO3VM' },
-        { classe: 'Bárbaro', build: 'Tyrael bash + bleed (frankestein hibrido)', nome: 'xLordByKoNx', tier: 126, tempo: '11:56', modo: 'SC', video: 'https://www.youtube.com/watch?v=R8RPFxlenv4' },
+        { classe: 'Bárbaro', build: 'Tyrael bash ', nome: 'xLordByKoNx', tier: 132, tempo: '13:53', modo: 'SC', video: 'https://www.youtube.com/watch?v=dNRUb6WjeXQ' },
         { classe: 'Mago', build: 'Firekuna Shatter (Versão com inferno)', nome: 'Shineray', tier: 133, tempo: '13:03', modo: 'SC', video: 'https://youtu.be/hMJGPUCxEM0' },
         { classe: 'Rogue', build: 'Heartseeker', nome: 'JahIthBer', tier: 108, tempo: '14:20', modo: 'SC', video: 'https://youtu.be/kuRYPC5qCzw' },
         { classe: 'Rogue', build: 'Heartseeker', nome: 'defreshXD', tier: 124, tempo: '14:45', modo: 'SC', video: 'https://www.youtube.com/watch?v=JSPxisCxlrM' },
@@ -31,7 +31,10 @@ document.addEventListener('DOMContentLoaded', () => {
         { classe: 'Rogue', build: 'Heartseeker', nome: 'Yago', tier: 86, tempo: '4:17', modo: 'HC', video: 'https://youtu.be/DdkDny4pP0U' },
         { classe: 'Druída', build: 'Pulverize', nome: 'DECO', tier: 80, tempo: '11:20', modo: 'SC', video: 'https://youtu.be/X0xsWH8Njq8?si=fyvNfIqBqkhMPorj' },
         { classe: 'Necromante', build: 'Infinimist', nome: 'Lit', tier: 100, tempo: '06:17', modo: 'HC', video: 'https://www.youtube.com/watch?v=6AtaYGfQ_qo' },
-
+        { classe: 'Rogue', build: 'Heartseeker', nome: 'CASALE', tier: 130, tempo: '12:37', modo: 'SC', video: 'https://youtu.be/20KwWZHwGFk?si=SgxOsNmS8Ut5_EES' },
+        { classe: 'Bárbaro', build: 'Bleed Bash / Tyrael ', nome: 'MTZ', tier: 128, tempo: '14:45', modo: 'SC', video: 'https://youtu.be/3xqohngwtzw?si=6pEBYOnKUzlKEVeC' },
+        { classe: 'Druída', build: 'PULVERIZE Envenom + Pets', nome: 'Junin', tier: 106, tempo: '8:24', modo: 'SC', video: 'https://youtu.be/pb5nqeg5USg?si=YDkBK41WtGF8YZEe' },
+        { classe: 'Mago', build: 'Fire Bolt / Inferno', nome: 'Immanewbie', tier: 147, tempo: '12:02', modo: 'SC', video: 'https://youtube.com/clip/UgkxTiV_AOzw1wxgFJsw3ZTKArlGg0KQ3aoZ?si=1YlMGWjo6ZeDEx91' },
     ];
 // { classe: '', build: '', nome: '', tier: 0, tempo: '', modo: 'SC', video: '' },
     rankingData.sort((a, b) => {
