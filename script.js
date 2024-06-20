@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { classe: 'Rogue', build: 'Heartseeker', nome: 'Shineray', tier: 137, tempo: '12:58', modo: 'SC', video: 'https://youtu.be/GgBNAKusGas' },
         { classe: 'Necromante', build: 'Shadow Golem', nome: 'ViTiN', tier: 130, tempo: '14:10', modo: 'SC', video: 'https://www.youtube.com/watch?v=FDiUrSIuQR8&ab_channel=VitorQueiroz' },
         { classe: 'Bárbaro', build: 'Bash/Bleed/HotA', nome: 'Gripp', tier: 133, tempo: '14:30', modo: 'SC', video: 'https://youtu.be/eKFN9dv2xhI' },
-        { classe: 'Rogue', build: 'Andariel Flurry', nome: 'Seonuk', tier: 110, tempo: '4:49', modo: 'SC', video: 'https://www.youtube.com/watch?v=hq848TPtRiQ' },
+        { classe: 'Rogue', build: 'Andariel Flurry', nome: 'Seonuk', tier: 130, tempo: '11:00', modo: 'SC', video: 'https://www.youtube.com/watch?v=c08bgi1d8UY&feature=youtu.be' },
         { classe: 'Mago', build: 'Nevasca(Blizzard)', nome: 'Léo Quixeré', tier: 100, tempo: '9:32', modo: 'SC', video: 'https://www.youtube.com/watch?v=1yoMvTQz9iA&t=8s' },
         { classe: 'Mago', build: 'Immortal Frozen Orb', nome: 'Hisoka', tier: 113, tempo: '10:06', modo: 'SC', video: 'https://www.youtube.com/watch?v=k7nyM1uwOeQ' },
         { classe: 'Necromante', build: 'Shadow Golem', nome: 'VilasBoas', tier: 136, tempo: '14:05', modo: 'SC', video: 'https://youtu.be/XsJ2NrKO3VM' },
@@ -33,8 +33,10 @@ document.addEventListener('DOMContentLoaded', () => {
         { classe: 'Necromante', build: 'Infinimist', nome: 'Lit', tier: 100, tempo: '06:17', modo: 'HC', video: 'https://www.youtube.com/watch?v=6AtaYGfQ_qo' },
         { classe: 'Rogue', build: 'Heartseeker', nome: 'CASALE', tier: 130, tempo: '12:37', modo: 'SC', video: 'https://youtu.be/20KwWZHwGFk?si=SgxOsNmS8Ut5_EES' },
         { classe: 'Bárbaro', build: 'Bleed Bash / Tyrael ', nome: 'MTZ', tier: 128, tempo: '14:45', modo: 'SC', video: 'https://youtu.be/3xqohngwtzw?si=6pEBYOnKUzlKEVeC' },
-        { classe: 'Druída', build: 'PULVERIZE Envenom + Pets', nome: 'Junin', tier: 106, tempo: '8:24', modo: 'SC', video: 'https://youtu.be/pb5nqeg5USg?si=YDkBK41WtGF8YZEe' },
+        { classe: 'Druída', build: 'PULVERIZE Envenom + Pets', nome: 'Junin', tier: 110, tempo: '9:15', modo: 'SC', video: 'https://youtu.be/k20D24WB24k?si=47Cd80X-X7n6Du5L' },
         { classe: 'Mago', build: 'Fire Bolt / Inferno', nome: 'Immanewbie', tier: 147, tempo: '12:02', modo: 'SC', video: 'https://youtube.com/clip/UgkxTiV_AOzw1wxgFJsw3ZTKArlGg0KQ3aoZ?si=1YlMGWjo6ZeDEx91' },
+        { classe: 'Bárbaro', build: 'WhirlWind', nome: 'Veloso', tier: 120, tempo: '5:54', modo: 'SC', video: 'https://youtu.be/SAvIgVhiHvE' },
+
     ];
 // { classe: '', build: '', nome: '', tier: 0, tempo: '', modo: 'SC', video: '' },
     rankingData.sort((a, b) => {
