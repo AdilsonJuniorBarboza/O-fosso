@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { classe: 'Bárbaro', build: 'Thorns(Espinhos)', nome: 'Tanure', tier: 118, tempo: '10:00', modo: 'SC', video: 'https://www.youtube.com/watch?v=zGLs7OGUdYA' },
         { classe: 'Rogue', build: 'Heartseeker', nome: 'Junin', tier: 113, tempo: '14:19', modo: 'SC', video: 'https://youtu.be/kTVMPcm7IV4' },
         { classe: 'Rogue', build: 'Heartseeker', nome: 'Veloso', tier: 110, tempo: '7:15', modo: 'SC', video: 'https://youtu.be/sAZwc2cc8t0?si=Efck8qAbZL-KYstU' },
-        { classe: 'Druída', build: 'Wind Shear Glass Cannon', nome: 'Junin', tier: 107, tempo: '12:25', modo: 'SC', video: 'https://youtu.be/HbFJ8V7eXkI?si=nOaNd98nloTT4sGr' },
+        { classe: 'Druída', build: 'Wind Shear Glass Cannon', nome: 'Junin', tier: 120, tempo: '13:37', modo: 'SC', video: 'https://youtu.be/S3mVfE_banU' },
         { classe: 'Necromante', build: 'Shadow Golem', nome: 'Offo_hc', tier: 109, tempo: '06:11', modo: 'HC', video: 'https://clips.twitch.tv/HeadstrongGeniusPheasantPJSalt-_dLsYXrID0h4t9lS' },
         { classe: 'Bárbaro', build: 'Bash', nome: 'Meganord', tier: 122, tempo: '10:08', modo: 'SC', video: 'https://youtu.be/W7omv2NMSVQ?si=g3aO8YjDGWMHs9fU' },
         { classe: 'Rogue', build: 'Heartseeker', nome: 'Winester', tier: 112, tempo: '10:26', modo: 'HC', video: 'https://www.youtube.com/watch?v=kU5EMzA9v20' },
