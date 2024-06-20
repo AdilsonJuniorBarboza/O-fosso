@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { classe: 'Bárbaro', build: 'WhirlWind', nome: 'Veloso', tier: 120, tempo: '5:54', modo: 'SC', video: 'https://youtu.be/SAvIgVhiHvE' },
         { classe: 'Necromante', build: 'Blight', nome: 'Serjão', tier: 100, tempo: '9:16', modo: 'SC', video: 'https://youtu.be/z4kJOF76eaE?si=LgB5LnIp_LN-nTq9' },
         { classe: 'Necromante', build: 'Bone Spirit', nome: 'Serjão', tier: 100, tempo: '10:12', modo: 'SC', video: 'https://youtu.be/TXd1keqp6Gg?si=RCY0PEMEkrzD594O' },
-    
+        { classe: 'Drúida', build: 'Lightning Storm (Grizzly Rage)', nome: 'Junin', tier: 100, tempo: '4:45', modo: 'SC', video: 'https://youtu.be/FbfRsKhNNwQ?si=EviyoGfaBEK8Qoio' },
     ];
 // { classe: '', build: '', nome: '', tier: 0, tempo: '', modo: 'SC', video: '' },
     rankingData.sort((a, b) => {
