@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { classe: 'Necromante', build: 'Golem + Blood Mist', nome: 'BBzAUM', tier: 82, tempo: '5:59', modo: 'SC', video: 'https://youtu.be/FJFrwgVZkd4' },
         { classe: 'Bárbaro', build: 'Whirlwind', nome: 'LUAN', tier: 103, tempo: '4:51', modo: 'SC', video: 'https://youtu.be/EERhBHTAA4k' }, 
         { classe: 'Rogue', build: 'Heartseeker', nome: 'val4dao', tier: 140, tempo: '13:56', modo: 'SC', video: 'https://www.youtube.com/watch?v=HSNEOnVWH3I&ab_channel=vaL4dao' },
-        { classe: 'Bárbaro', build: 'Bleed Bash', nome: 'Keven', tier: 130, tempo: '13:57', modo: 'SC', video: 'https://www.youtube.com/watch?v=nvgl4xhyQtw' },
+        { classe: 'Bárbaro', build: 'Bleed Bash', nome: 'Keven', tier: 130, tempo: '13:57', modo: 'HC', video: 'https://www.youtube.com/watch?v=nvgl4xhyQtw' },
         { classe: 'Arwen', build: 'Heartseeker', nome: 'Arwen', tier: 136, tempo: '14:54', modo: 'SC', video: 'https://youtu.be/ayfJv3XU8DE' },
     ];
 // { classe: '', build: '', nome: '', tier: 0, tempo: '', modo: 'SC', video: '' },
