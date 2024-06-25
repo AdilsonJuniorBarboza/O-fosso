@@ -1,6 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
     let rankingData = [
-        { classe: 'Bárbaro', build: 'Bash Hota', nome: 'Shelby', tier: 132, tempo: '12:57', modo: 'SC', video: 'https://youtu.be/h0INwhdWvpk' },
         { classe: 'Bárbaro', build: 'Thorns(Espinhos)', nome: 'Tanure', tier: 118, tempo: '10:00', modo: 'SC', video: 'https://www.youtube.com/watch?v=zGLs7OGUdYA' },
         { classe: 'Rogue', build: 'Heartseeker', nome: 'Junin', tier: 113, tempo: '14:19', modo: 'SC', video: 'https://youtu.be/kTVMPcm7IV4' },
         { classe: 'Rogue', build: 'Heartseeker', nome: 'Veloso', tier: 110, tempo: '7:15', modo: 'SC', video: 'https://youtu.be/sAZwc2cc8t0?si=Efck8qAbZL-KYstU' },
