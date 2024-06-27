@@ -50,7 +50,6 @@ document.addEventListener('DOMContentLoaded', () => {
         { classe: 'Bárbaro', build: 'Bleed Bash', nome: 'Keven', tier: 130, tempo: '13:57', modo: 'HC', video: 'https://www.youtube.com/watch?v=nvgl4xhyQtw' },
         { classe: 'Arwen', build: 'Heartseeker', nome: 'Arwen', tier: 136, tempo: '14:54', modo: 'SC', video: 'https://youtu.be/ayfJv3XU8DE' },
         { classe: 'Bárbaro', build: 'Bleed Bash', nome: 'Zaibaonehit', tier: 131, tempo: '12:57', modo: 'SC', video: 'https://youtu.be/lASD_xKa40s' },
-        { classe: '', build: '', nome: '', tier: 0, tempo: '', modo: 'SC', video: '' },
     ];
 // { classe: '', build: '', nome: '', tier: 0, tempo: '', modo: 'SC', video: '' },
     rankingData.sort((a, b) => {
