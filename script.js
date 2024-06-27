@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { classe: 'Bárbaro', build: 'WhirlWind', nome: 'Veloso', tier: 120, tempo: '5:54', modo: 'SC', video: 'https://youtu.be/SAvIgVhiHvE' },
         { classe: 'Necromante', build: 'Blight', nome: 'Serjão', tier: 100, tempo: '9:16', modo: 'SC', video: 'https://youtu.be/z4kJOF76eaE?si=LgB5LnIp_LN-nTq9' },
         { classe: 'Necromante', build: 'Bone Spirit', nome: 'Serjão', tier: 100, tempo: '10:12', modo: 'SC', video: 'https://youtu.be/TXd1keqp6Gg?si=RCY0PEMEkrzD594O' },
-        { classe: 'Druída', build: 'Lightning Storm (Grizzly Rage)', nome: 'Junin', tier: 100, tessmpo: '4:45', modo: 'SC', video: 'https://youtu.be/FbfRsKhNNwQ?si=EviyoGfaBEK8Qoio' },
+        { classe: 'Druída', build: 'Lightning Storm (Grizzly Rage)', nome: 'Junin', tier: 100, tempo: '4:45', modo: 'SC', video: 'https://youtu.be/FbfRsKhNNwQ?si=EviyoGfaBEK8Qoio' },
         { classe: 'Bárbaro', build: 'WW Bleed Tyrael', nome: 'DJLada', tier: 104, tempo: '4:32', modo: 'HC', video: 'https://youtu.be/yXndPcPhC6E' },
         { classe: 'Mago', build: 'Firebolt', nome: 'pogg', tier: 126, tempo: '14:28', modo: 'SC', video: 'https://youtu.be/Qvm42-1IEYw' },
         { classe: 'Bárbaro', build: 'Tyrael Bash Bleed', nome: 'xLordByKoNx', tier: 136, tempo: '13:20', modo: 'SC', video: 'https://www.youtube.com/watch?v=yZ8AxX97VEE' },
@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { classe: 'Bárbaro', build: 'Whirlwind', nome: 'LUAN', tier: 103, tempo: '4:51', modo: 'SC', video: 'https://youtu.be/EERhBHTAA4k' }, 
         { classe: 'Rogue', build: 'Heartseeker', nome: 'val4dao', tier: 142, tempo: '14:44', modo: 'SC', video: 'https://www.youtube.com/watch?v=MVroT71EzP8&ab_channel=vaL4dao' },
         { classe: 'Bárbaro', build: 'Bleed Bash', nome: 'Keven', tier: 130, tempo: '13:57', modo: 'HC', video: 'https://www.youtube.com/watch?v=nvgl4xhyQtw' },
-        { classe: 'Arwen', build: 'Heartseeker', nome: 'Arwen', tier: 136, tempo: '14:54', modo: 'SC', video: 'https://youtu.be/ayfJv3XU8DE' },
+        { classe: 'Rogue', build: 'Heartseeker', nome: 'Arwen', tier: 136, tempo: '14:54', modo: 'SC', video: 'https://youtu.be/ayfJv3XU8DE' },
         { classe: 'Bárbaro', build: 'Bleed Bash', nome: 'Zaibaonehit', tier: 131, tempo: '12:57', modo: 'SC', video: 'https://youtu.be/lASD_xKa40s' },
     ];
 // { classe: '', build: '', nome: '', tier: 0, tempo: '', modo: 'SC', video: '' },
