@@ -83,7 +83,6 @@ header {
     transition: background-color 0.3s ease; /* Transição suave para a cor de fundo */
 }
 
-
 .center {
     width: 80%;
     margin: 0 auto;
@@ -376,8 +375,10 @@ footer img {
 }
 
 .supporter span {
+    position: relative;
+    top: -2px; /* Ajuste o valor conforme necessário */
     font-size: 12px; /* Tamanho do texto */
-    color: #fff; /* Cor do texto */
+    color: #ffffff; /* Cor do texto */
     margin-top: 3px; /* Adicionando margem superior */
 
 }
