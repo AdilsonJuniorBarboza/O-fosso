@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { classe: 'Bárbaro', build: 'Bash Bleed Rupture', nome: 'xixStres', tier: 135, tempo: '14:18', modo: 'SC', video: 'https://youtu.be/e3DdQsyCr1U?si=4IGPSWzG3ngi8oj1' },
         { classe: 'Rogue', build: 'Andariel Flurry', nome: 'Felipe', tier: 143, tempo: '14:04', modo: 'SC', video: 'https://youtu.be/B-zVLa0dYBs' },
         { classe: 'Rogue', build: 'Pen Shot + Imbuing', nome: 'Serjão', tier: 100, tempo: '9:37', modo: 'SC', video: 'https://youtu.be/qoKm7RZZ0UA?si=UqpJr9Aj44Xp61pj' },
-        { classe: 'Necromante', build: 'Golem + Blood Mist', nome: 'BBzAUM', tier: 82, tempo: '5:59', modo: 'SC', video: 'https://youtu.be/FJFrwgVZkd4' },
+        { classe: 'Necromante', build: 'Golem + Blood Mist', nome: 'BBzAUM', tier: 82, tempo: '5:59', modo: 'HC', video: 'https://youtu.be/FJFrwgVZkd4' },
         { classe: 'Bárbaro', build: 'Whirlwind', nome: 'LUAN', tier: 103, tempo: '4:51', modo: 'SC', video: 'https://youtu.be/EERhBHTAA4k' }, 
         { classe: 'Rogue', build: 'Heartseeker', nome: 'val4dao', tier: 142, tempo: '14:44', modo: 'SC', video: 'https://www.youtube.com/watch?v=MVroT71EzP8&ab_channel=vaL4dao' },
         { classe: 'Bárbaro', build: 'Bleed Bash', nome: 'Keven', tier: 130, tempo: '13:57', modo: 'HC', video: 'https://www.youtube.com/watch?v=nvgl4xhyQtw' },
@@ -104,6 +104,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 });
 
+// Função para rolar suavemente até o elemento especificado
 function searchAndScroll() {
     const searchInput = document.getElementById('searchInput').value.trim().toLowerCase();
     const rows = document.querySelectorAll('#ranking-body tr');
@@ -143,8 +144,6 @@ function searchAndScroll() {
     }
 }
 
-
-
 // Seleciona o elemento de input de pesquisa
 const searchInput = document.getElementById('searchInput');
 
@@ -156,3 +155,5 @@ searchInput.addEventListener('keydown', function(event) {
         searchAndScroll();
     }
 });
+
+
