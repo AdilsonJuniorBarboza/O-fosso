@@ -9,9 +9,6 @@
 @import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
 
 
-
-
-
 body {
     margin: 0;
     padding: 0;
@@ -26,6 +23,33 @@ header {
     padding: 10px 0;
     border-bottom: 1px solid #444;
 }
+
+#devbyjunin {
+    position: absolute; /* Remove do fluxo normal do documento */
+    top: 10px; /* Posiciona no topo do cabeçalho */
+    left: 10px; /* Posiciona à esquerda */
+    font-size: 14px; /* Tamanho da fonte */
+    font-family: 'Exocet', sans-serif; /* Fonte personalizada */
+    display: flex;
+    align-items: center; /* Alinha itens verticalmente no centro */
+    text-align: right; /* Alinha o texto à direita */
+}
+
+#devbyjunin img {
+    width: 20px; /* Tamanho dos ícones */
+    height: auto; /* Mantém a proporção da imagem */
+    margin-left: 5px; /* Espaçamento entre o texto e o ícone */
+}
+
+#devbyjunin strong {
+    margin-left: 10px; /* Espaçamento entre "Dev by:" e "jun1n.dc" */
+}
+
+#devbyjunin .social-icon {
+    margin-left: 5px; /* Espaçamento entre os ícones */
+    margin-right: 0; /* Remove margem à direita para manter os ícones próximos */
+}
+
 
 .search-container {
     position: relative;
@@ -269,6 +293,8 @@ table.ranking td a:hover {
 
 
 footer {
+
+    justify-content: space-between; /* Alinha os itens à esquerda e à direita */
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -445,4 +471,5 @@ footer img {
         width: 20px;
         height: 20px;
     }
+
 }
