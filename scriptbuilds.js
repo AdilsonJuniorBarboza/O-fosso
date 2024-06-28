@@ -13,6 +13,11 @@ document.addEventListener("DOMContentLoaded", function() {
             thumbnail: "buildwhirlwind-veloso.jpg",
             videoLink: "https://youtu.be/GIjwjL4znn4?si=z9O1Hmmr8-j1krZ9"
         },
+        { 
+            title: "Mago Nevasca - QuixereGames",
+            thumbnail: "MagoNevasca-Quixeregames.jpg",
+            videoLink: "https://youtu.be/Va9ZxWdwTjg?si=ocBYZ9awc_wPVPcU"
+        },
         // Adicione mais vídeos conforme necessário
     ];
 
