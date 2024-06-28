@@ -182,9 +182,30 @@ section.sobre {
     margin: 20px 0;
 }
 
+@media only screen and (max-width: 768px) {
+    th, td {
+        font-size: 5.6px; /* Tamanho menor de fonte para dispositivos móveis */
+        padding: 6px; /* Espaçamento menor entre células */
+        text-overflow: ellipsis; /* Adiciona reticências (...) se o texto exceder o espaço disponível */
+    
+        max-width: 200px; /* Define uma largura máxima para as células */
+
+        white-space: nowrap; /* Permite que o texto quebre de linha */
+        text-overflow: initial; /* Remove a propriedade de text-overflow */
+        word-break: break-word; /* Força as palavras a quebrarem no meio se necessário */
+
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    th, td {
+        word-wrap: normal; /* Evita que palavras longas quebrem no meio */
+    }
+}
+
 
 table.ranking {
-    table-layout: fixed; /* Fixa o layout da tabela */
+
 
     width: 100%;
     border-collapse: collapse;
