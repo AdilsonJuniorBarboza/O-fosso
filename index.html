@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
     <title>O Fosso 🇧🇷</title>
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
@@ -99,6 +102,14 @@
             <a href="javascript:void(0);" onclick="filterTable('HC')" class="filter-link" id="BotaoHardcore">Hardcore</a> 
         </div>
 
+        <div class="search-container">
+            <input type="text" class="search-box" placeholder="Pesquisar..." id="searchInput">
+            <button class="search-button" onclick="searchAndScroll()">
+                <img src="LupaICON.png" alt="Ícone de Pesquisa">
+            </button>
+        </div>
+        
+        
         <table class="ranking">
             <thead>
                 <tr>
@@ -121,6 +132,7 @@
     <footer>
         <img src="logo.png" alt="YouTube Builds" class="larger-image">
     </footer>
+
 
     <script src="script.js"></script>
 </body>

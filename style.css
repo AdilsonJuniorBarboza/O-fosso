@@ -27,6 +27,63 @@ header {
     border-bottom: 1px solid #444;
 }
 
+.search-container {
+    position: relative;
+    width: 300px;
+}
+
+.search-box {
+    width: calc(100% - 40px); /* Considerando o espaço para o botão */
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    outline: none;
+    margin-top: 30px;
+    box-sizing: border-box; /* Garante que o padding não aumente a largura total */
+}
+
+.search-button {
+    position: absolute;
+    right: -5px;
+    top: 50%; /* Ajuste para alinhar verticalmente com a caixa de pesquisa */
+    width: 40px; /* Largura do botão */
+    height: 30px;
+    background-color: #5e5e5e;
+    border: none;
+    border-radius: 15px 15px 15px 15px; /* Cantos arredondados à esquerda */
+    cursor: pointer;
+    padding: 0;
+    overflow: hidden;
+    transition: background-color 0.3s ease; /* Transição suave para a mudança de cor */
+}
+
+.search-button img {
+    width: 20px; /* Ajuste o tamanho da imagem conforme necessário */
+    height: 20px;
+    display: block;
+    margin: auto; /* Centraliza a imagem dentro do botão */
+}
+
+/* Ícone de pesquisa branco para contrastar com o fundo cinza */
+.search-button img {
+    filter: invert(1); /* Inverte as cores da imagem para branco */
+}
+
+.search-button:hover {
+    background-color: #272727; /* Cor mais escura ao passar o mouse */
+}
+
+
+.highlight {
+    background-color: yellow;
+    font-weight: bold;
+    transition: background-color 0.3s ease; /* Transição suave para a cor de fundo */
+}
+
+
 .center {
     width: 80%;
     margin: 0 auto;
@@ -293,8 +350,9 @@ footer img {
 }
 
 #BotaoHardcore {
-    color: rgb(161, 19, 19); /* Cor vermelha padrão */
+    color: rgb(182, 11, 11); /* Cor vermelha padrão */
     transition: color 0.3s ease; /* Transição suave para a mudança de cor */
+    text-shadow: 1px 1px 1px #000000, 0 0 6px #9e6e16;
 }
 
 #BotaoHardcore:hover {
@@ -386,6 +444,4 @@ footer img {
         width: 20px;
         height: 20px;
     }
-
 }
-

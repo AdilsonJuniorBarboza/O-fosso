@@ -103,3 +103,56 @@ document.addEventListener('DOMContentLoaded', () => {
         return minutes * 60 + seconds;
     }
 });
+
+function searchAndScroll() {
+    const searchInput = document.getElementById('searchInput').value.trim().toLowerCase();
+    const rows = document.querySelectorAll('#ranking-body tr');
+
+    // Verifica se o campo de pesquisa está vazio
+    if (searchInput === '') {
+        alert('Digite um nome para pesquisar.');
+        return;
+    }
+
+    let found = false;
+
+    rows.forEach(row => {
+        const nomeCell = row.querySelector('td:nth-child(4)');
+        const nome = nomeCell.textContent.trim().toLowerCase();
+        if (nome.includes(searchInput)) { // Verifica se o nome contém o texto pesquisado
+            // Scroll para o elemento encontrado com animação
+            row.scrollIntoView({ behavior: 'smooth', block: 'center' });
+
+            // Destaque somente o texto encontrado em amarelo
+            const texto = nomeCell.innerHTML;
+            const textoDestacado = texto.replace(new RegExp(`(${searchInput})`, 'gi'), '<span style="background-color: yellow">$1</span>');
+            nomeCell.innerHTML = textoDestacado;
+
+            // Remover o destaque após alguns segundos (opcional)
+            setTimeout(() => {
+                nomeCell.innerHTML = texto; // Restaura o texto original
+            }, 3000); // 3000 milissegundos = 3 segundos
+
+            found = true;
+        }
+    });
+
+    // Se nenhum nome correspondente foi encontrado
+    if (!found) {
+        alert('Nome não encontrado na tabela.');
+    }
+}
+
+
+
+// Seleciona o elemento de input de pesquisa
+const searchInput = document.getElementById('searchInput');
+
+// Adiciona um event listener para o evento 'keydown' no input
+searchInput.addEventListener('keydown', function(event) {
+    // Verifica se a tecla pressionada é 'Enter'
+    if (event.key === 'Enter') {
+        // Chama a função de pesquisa ao pressionar 'Enter'
+        searchAndScroll();
+    }
+});
