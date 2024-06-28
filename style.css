@@ -184,7 +184,7 @@ section.sobre {
 
 @media only screen and (max-width: 768px) {
     th, td {
-        font-size: 5.6px; /* Tamanho menor de fonte para dispositivos móveis */
+        font-size: 3px; /* Tamanho menor de fonte para dispositivos móveis */
         padding: 6px; /* Espaçamento menor entre células */
         text-overflow: ellipsis; /* Adiciona reticências (...) se o texto exceder o espaço disponível */
     
@@ -213,10 +213,6 @@ table.ranking {
 }
 
 table.ranking th, table.ranking td {
-
-    overflow-x: auto; /* Adiciona barra de rolagem horizontal se necessário */
-    overflow: hidden; /* Esconde o conteúdo que ultrapassar */
-
     border: 1px solid #444;
     padding: 10px;
     text-align: center;
