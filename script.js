@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { classe: 'Bárbaro', build: 'Flay/Rupture', nome: 'Shineray', tier: 116, tempo: '14:42', modo: 'SC', video: 'https://youtu.be/8smwKrSHelk' },
         { classe: 'Necromante', build: 'Shadow Golem', nome: 'Lit', tier: 85, tempo: '4:18', modo: 'HC', video: 'https://www.youtube.com/watch?v=lkEgKuYvQKQ' },
         { classe: 'Bárbaro', build: 'Espinhos (Sem Uber)', nome: 'BBzAUM', tier: 76, tempo: '4:09', modo: 'HC', video: 'https://youtu.be/IaYZgXVT-P8' }, 
-        { classe: 'Rogue', build: 'Heartseeker', nome: 'Yago', tier: 86, tempo: '4:17', modo: 'HC', video: 'https://youtu.be/DdkDny4pP0U' },
+        { classe: 'Rogue', build: 'Heartseeker', nome: 'Yago', tier: 113, tempo: '9:33', modo: 'HC', video: 'https://www.youtube.com/watch?v=1qqQ7_hR-V4' },
         { classe: 'Druída', build: 'Pulverize', nome: 'LUAN', tier: 80, tempo: '11:20', modo: 'SC', video: 'https://youtu.be/X0xsWH8Njq8?si=fyvNfIqBqkhMPorj' },
         { classe: 'Necromante', build: 'Infinimist', nome: 'Lit', tier: 100, tempo: '06:17', modo: 'HC', video: 'https://www.youtube.com/watch?v=6AtaYGfQ_qo' },
         { classe: 'Rogue', build: 'Heartseeker', nome: 'CASALE', tier: 131, tempo: '13:10', modo: 'SC', video: 'https://youtu.be/1D-2cwip4PI' },
@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { classe: 'Bárbaro', build: 'WW Bleed Tyrael', nome: 'DJLada', tier: 104, tempo: '4:32', modo: 'HC', video: 'https://youtu.be/yXndPcPhC6E' },
         { classe: 'Mago', build: 'Firebolt', nome: 'pogg', tier: 126, tempo: '14:28', modo: 'SC', video: 'https://youtu.be/Qvm42-1IEYw' },
         { classe: 'Bárbaro', build: 'Tyrael Bash Bleed', nome: 'xLordByKoNx', tier: 136, tempo: '13:20', modo: 'SC', video: 'https://www.youtube.com/watch?v=yZ8AxX97VEE' },
-        { classe: 'Bárbaro', build: 'Bash Bleed Rupture', nome: 'xixStres', tier: 135, tempo: '14:18', modo: 'SC', video: 'https://youtu.be/e3DdQsyCr1U?si=4IGPSWzG3ngi8oj1' },
+        { classe: 'Bárbaro', build: 'Bash Bleed Rupture', nome: 'xixStres', tier: 141, tempo: '12:56', modo: 'SC', video: 'https://youtu.be/ldZgeU3_hQw?si=TZlDvS2Pwbw3Xqe_' },
         { classe: 'Rogue', build: 'Andariel Flurry', nome: 'Felipe', tier: 143, tempo: '14:04', modo: 'SC', video: 'https://youtu.be/B-zVLa0dYBs' },
         { classe: 'Rogue', build: 'Pen Shot + Imbuing', nome: 'Serjão', tier: 100, tempo: '9:37', modo: 'SC', video: 'https://youtu.be/qoKm7RZZ0UA?si=UqpJr9Aj44Xp61pj' },
         { classe: 'Necromante', build: 'Golem + Blood Mist', nome: 'BBzAUM', tier: 82, tempo: '5:59', modo: 'HC', video: 'https://youtu.be/FJFrwgVZkd4' },
@@ -50,6 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { classe: 'Bárbaro', build: 'Bleed Bash', nome: 'Keven', tier: 130, tempo: '13:57', modo: 'HC', video: 'https://www.youtube.com/watch?v=nvgl4xhyQtw' },
         { classe: 'Rogue', build: 'Heartseeker', nome: 'Arwen', tier: 136, tempo: '14:54', modo: 'SC', video: 'https://youtu.be/ayfJv3XU8DE' },
         { classe: 'Bárbaro', build: 'Bleed Bash', nome: 'Zaibaonehit', tier: 131, tempo: '12:57', modo: 'SC', video: 'https://youtu.be/lASD_xKa40s' },
+        { classe: 'Bárbaro', build: 'Whirlwind', nome: 'ElfoGUERRA', tier: 108, tempo: '14:38', modo: 'SC', video: 'https://youtu.be/KJY3W1XXdps' },
     ];
 // { classe: '', build: '', nome: '', tier: 0, tempo: '', modo: 'SC', video: '' },
     rankingData.sort((a, b) => {
