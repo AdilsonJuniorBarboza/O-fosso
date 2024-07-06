@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { classe: 'Bárbaro', build: 'Bash', nome: 'Winester', tier: 92, tempo: '6:20', modo: 'HC', video: 'https://www.youtube.com/watch?v=kpSU0GuKLtI' },
         { classe: 'Necromante', build: 'Minions Golem', nome: 'gouggwww', tier: 129, tempo: '5:02', modo: 'SC', video: 'https://www.youtube.com/watch?v=jvBFIeUj0cs' },
         { classe: 'Bárbaro', build: 'Flay/Rupture', nome: 'Shineray', tier: 116, tempo: '14:42', modo: 'SC', video: 'https://youtu.be/8smwKrSHelk' },
-        { classe: 'Necromante', build: 'Shadow Golem', nome: 'Lit', tier: 85, tempo: '4:18', modo: 'HC', video: 'https://www.youtube.com/watch?v=lkEgKuYvQKQ' },
+        { classe: 'Necromante', build: 'Shadow Golem', nome: 'Lit', tier: 120, tempo: '12:10', modo: 'HC', video: 'https://www.youtube.com/watch?v=hyZXSjr8Xqg' },
         { classe: 'Bárbaro', build: 'Espinhos (Sem Uber)', nome: 'BBzAUM', tier: 76, tempo: '4:09', modo: 'HC', video: 'https://youtu.be/IaYZgXVT-P8' }, 
         { classe: 'Rogue', build: 'Heartseeker', nome: 'Yago', tier: 113, tempo: '9:33', modo: 'HC', video: 'https://www.youtube.com/watch?v=1qqQ7_hR-V4' },
         { classe: 'Druída', build: 'Pulverize', nome: 'LUAN', tier: 80, tempo: '11:20', modo: 'SC', video: 'https://youtu.be/X0xsWH8Njq8?si=fyvNfIqBqkhMPorj' },
@@ -51,6 +51,8 @@ document.addEventListener('DOMContentLoaded', () => {
         { classe: 'Rogue', build: 'Heartseeker', nome: 'Arwen', tier: 136, tempo: '14:54', modo: 'SC', video: 'https://youtu.be/ayfJv3XU8DE' },
         { classe: 'Bárbaro', build: 'Bleed Bash', nome: 'Zaibaonehit', tier: 131, tempo: '12:57', modo: 'SC', video: 'https://youtu.be/lASD_xKa40s' },
         { classe: 'Bárbaro', build: 'Whirlwind', nome: 'ElfoGUERRA', tier: 108, tempo: '14:38', modo: 'SC', video: 'https://youtu.be/KJY3W1XXdps' },
+        { classe: 'Druída', build: 'Andys Claw', nome: 'WildBlackSmith', tier: 107, tempo: '11:46', modo: 'SC', video: 'https://www.twitch.tv/videos/2188294912' },
+        { classe: 'Druída', build: 'Maul', nome: 'WildBlackSmith', tier: 90, tempo: '11:07', modo: 'SC', video: 'https://www.twitch.tv/videos/2187726633' },
     ];
 // { classe: '', build: '', nome: '', tier: 0, tempo: '', modo: 'SC', video: '' },
     rankingData.sort((a, b) => {
