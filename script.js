@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { classe: 'Bárbaro', build: 'WW Bleed Tyrael', nome: 'DJLada', tier: 104, tempo: '4:32', modo: 'HC', video: 'https://youtu.be/yXndPcPhC6E' },
         { classe: 'Mago', build: 'Firebolt', nome: 'pogg', tier: 126, tempo: '14:28', modo: 'SC', video: 'https://youtu.be/Qvm42-1IEYw' },
         { classe: 'Bárbaro', build: 'Tyrael Bash Bleed', nome: 'xLordByKoNx', tier: 137, tempo: '14:20', modo: 'SC', video: 'https://www.youtube.com/watch?v=evwNCLCueRw' },
-        { classe: 'Bárbaro', build: 'Bash Bleed Rupture', nome: 'xixStres', tier: 141, tempo: '12:56', modo: 'SC', video: 'https://youtu.be/ldZgeU3_hQw?si=TZlDvS2Pwbw3Xqe_' },
+        { classe: 'Bárbaro', build: 'Flay Rupture', nome: 'xixStres', tier: 143, tempo: '13:27', modo: 'SC', video: 'https://youtu.be/_DElfO66Fq8?si=bcqtuQWhzYh6TZPw' },
         { classe: 'Rogue', build: 'Andariel Flurry', nome: 'Felipe', tier: 143, tempo: '14:04', modo: 'SC', video: 'https://youtu.be/B-zVLa0dYBs' },
         { classe: 'Rogue', build: 'Pen Shot + Imbuing', nome: 'Serjão', tier: 100, tempo: '9:37', modo: 'SC', video: 'https://youtu.be/qoKm7RZZ0UA?si=UqpJr9Aj44Xp61pj' },
         { classe: 'Necromante', build: 'Golem + Blood Mist', nome: 'BBzAUM', tier: 82, tempo: '5:59', modo: 'HC', video: 'https://youtu.be/FJFrwgVZkd4' },
@@ -52,9 +52,10 @@ document.addEventListener('DOMContentLoaded', () => {
         { classe: 'Bárbaro', build: 'Whirlwind', nome: 'ElfoGUERRA', tier: 108, tempo: '14:38', modo: 'SC', video: 'https://youtu.be/KJY3W1XXdps' },
         { classe: 'Druída', build: 'Andys Claw', nome: 'WildBlackSmith', tier: 107, tempo: '11:46', modo: 'SC', video: 'https://www.twitch.tv/videos/2188294912' },
         { classe: 'Druída', build: 'Maul', nome: 'WildBlackSmith', tier: 90, tempo: '11:07', modo: 'SC', video: 'https://www.twitch.tv/videos/2187726633' },
-        { classe: 'Necromante', build: 'Shadow Mage', nome: 'Fleezao', tier: 136, tempo: '12:59', modo: 'SC', video: 'https://www.youtube.com/watch?v=pX1beqXVbB0&ab_channel=Fleezao' },
+        { classe: 'Necromante', build: 'Shadow Mage', nome: 'Fleezao', tier: 137, tempo: '14:14', modo: 'SC', video: 'https://www.youtube.com/watch?v=pxTee0Ppx4k&ab_channel=Fleezao' },
         { classe: 'Rogue', build: 'Andariel Flurry', nome: 'Veloso', tier: 131, tempo: '11:06', modo: 'SC', video: 'https://youtu.be/CXsX2vb-Xk4' },
         { classe: 'Necromante', build: 'Minions', nome: 'Veloso', tier: 80, tempo: '3:37', modo: 'HC', video: 'https://youtu.be/CoUbVNCUC84' },
+        { classe: 'Mago', build: 'InfernoKuna ', nome: 'Léo Quixeré', tier: 140, tempo: '15:00', modo: 'SC', video: 'https://www.youtube.com/watch?v=WPGgmVc2vHM' },
     ];
 // { classe: '', build: '', nome: '', tier: 0, tempo: '', modo: 'SC', video: '' },
     rankingData.sort((a, b) => {
