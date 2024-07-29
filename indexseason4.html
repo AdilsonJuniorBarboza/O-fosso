@@ -78,16 +78,6 @@
     </div>
 
     <div class="center">
-        <div class="regras">
-            <h2>REGRAS</h2>
-            <ul>
-                <li> Para participar do <strong>ranqueamento</strong> é necessário nos mandar um vídeo realizando qualquer fosso <strong>tier 80+</strong> <strong id="hardcoretierlevel">(HARDCORE 50+).</strong></li>
-                <li> É um ranqueamento <strong>brasileiro</strong> , logo, aqui é das ruas, pode usar elixir, pode usar bug, pode usar tudo, contanto que o vídeo fazendo o fosso seja enviado no nosso Discord.</li>
-                <li> Para participar basta acessar o nosso <a href="https://discord.gg/yQ6pdGQf9G" target="_blank">Discord</a> e enviar o link do seu vídeo (que deve ser postado no YouTube/Twitch) preenchendo o formulário corretamente.</li>
-                <li> Caso você for enviar outro vídeo fazendo um tier maior com a mesma classe, deixar enaltecido no formulário que se trata de uma <strong>ATUALIZAÇÃO</strong>.</li>
-                <li> Você pode encaminhar seu vídeo até o <strong>fim da temporada</strong> para participar da ranqueada.</li>
-            </ul>
-        </div>
 
         <div class="dropdown">
             <select id="seasonSelect">
@@ -95,7 +85,9 @@
                 <option value="indexseason4.html">Season 4</option>
             </select>
         </div>
+
         
+
         <div class="filter-links">
             <a href="javascript:void(0);" onclick="filterTable('')" class="filter-link" style="margin-right: 20px;">Geral</a>
             <a href="javascript:void(0);" onclick="filterTable('Mago')" class="filter-link">Mago</a>
@@ -123,12 +115,12 @@
                     <th>Nome</th>
                     <th>Tier</th>
                     <th>Tempo</th>
-                    <th>Modo</th> 
+                    <th>Modo</th> <!-- Mudança para "Modo" -->
                     <th>Vídeo</th>
                 </tr>
             </thead>
             <tbody id="ranking-body">
-
+                <!-- Conteúdo da tabela será populado dinamicamente -->
             </tbody>
         </table>
     </div>
@@ -150,25 +142,28 @@
         </a>
     </footer>
 
+
     <script>
 
-        document.addEventListener('DOMContentLoaded', function() {
-            const selectElement = document.getElementById('seasonSelect');
-            
-        
-            const savedOption = localStorage.getItem('selectedSeason');
+document.addEventListener('DOMContentLoaded', function() {
+    const selectElement = document.getElementById('seasonSelect');
+    
 
-            
-            selectElement.addEventListener('change', function() {
-                localStorage.setItem('selectedSeason', this.value);
-                window.location.href = this.value;
-            });
-        });
-        
-        
-            </script>
+    const savedOption = localStorage.getItem('selectedSeason');
+    if (savedOption) {
+        selectElement.value = savedOption;
+    }
+    
+
+    selectElement.addEventListener('change', function() {
+        localStorage.setItem('selectedSeason', this.value);
+        window.location.href = this.value;
+    });
+});
 
 
-    <script src="script.js"></script>
+    </script>
+
+    <script src="scriptseason4.js"></script>
 </body>
 </html>

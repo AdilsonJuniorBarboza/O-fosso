@@ -7,11 +7,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Almendra&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Creepster&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Creepster&family=Rye&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Bungee+Shade&family=Creepster&family=Rye&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&family=Rubik+Wet+Paint&display=swap');
 
 
 body {
@@ -241,18 +236,17 @@ table.ranking td a:hover {
 }
 
 .diablo-title {
-    font-family: "Rubik Wet Paint", system-ui;
-    text-shadow: #5e0000 0 5px 5px;
+    font-family: 'Cinzel', serif;
     font-size: 48px;
     font-weight: 700;
     text-align: center;
     color: transparent; /* Torna o texto transparente */
-    background: linear-gradient(45deg, #000000, #ff0000, #000000); /* Adiciona um ciclo de cores */
+    background: linear-gradient(45deg, #250202, #000000, #ff3c3c); /* Adiciona um ciclo de cores */
     background-size: 300% 300%; /* Necessário para o movimento do gradiente */
     -webkit-background-clip: text;
     background-clip: text;
-    animation: gradientMove 2s linear infinite; /* Define a animação */
-    -webkit-text-stroke: 0.1px #250000; /* Adiciona uma borda branca fina ao texto */
+    animation: gradientMove 8s linear infinite; /* Define a animação */
+    -webkit-text-stroke: 1px #ff3e3e; /* Adiciona uma borda branca fina ao texto */
 }
 
 @keyframes gradientMove {
@@ -510,46 +504,4 @@ footer img {
         height: 20px;
     }
 
-}
-
-/* Estilo para o dropdown */
-.dropdown {
-    position: relative; /* Necessário para posicionar a seta corretamente */
-    text-align: center; /* Centraliza o dropdown no cabeçalho */
-    margin-top: 10px; /* Espaço acima do dropdown */
-}
-
-select {
-    font-family: 'Cinzel', serif; /* Fonte estilizada para combinar com o tema medieval */
-    font-size: 18px; /* Tamanho da fonte */
-    background-color: #333; /* Cor de fundo escura para combinar com o tema */
-    color: #e0e0e0; /* Cor do texto clara */
-    border: 2px solid #858585; /* Borda cinza para destacar */
-    border-radius: 5px; /* Bordas arredondadas */
-    padding: 10px 40px 10px 10px; /* Espaço interno com mais espaço à direita para a seta */
-    cursor: pointer; /* Muda o cursor para uma mãozinha */
-    outline: none; /* Remove o contorno padrão */
-    transition: background-color 0.3s ease, border-color 0.3s ease; /* Transições suaves para cor de fundo e borda */
-    margin-bottom: 50px;
-    -webkit-appearance: none; /* Remove o estilo padrão do dropdown no Safari */
-    -moz-appearance: none; /* Remove o estilo padrão do dropdown no Firefox */
-    appearance: none; /* Remove o estilo padrão do dropdown */
-}
-
-select:hover {
-    background-color: #444; /* Cor de fundo mais clara ao passar o mouse */
-    border-color: #ffffff; /* Borda mais clara ao passar o mouse */
-}
-
-select:focus {
-    background-color: #555; /* Cor de fundo ao focar */
-    border-color: #ffffff; /* Borda ao focar */
-}
-
-/* Adiciona uma seta personalizada ao lado do select */
-.dropdown::after {
-    content: '▼'; /* Adiciona uma seta personalizada */
-    font-size: 16px; /* Tamanho da seta */
-    color: #e0e0e0; /* Cor da seta */
-    pointer-events: none; /* Ignora eventos do mouse na seta */
 }
