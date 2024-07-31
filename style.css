@@ -433,12 +433,16 @@ footer img {
 }
 
 .supporter img {
+
     width: 15px; /* Largura do ícone */
     height: 15px; /* Altura do ícone */
     margin-right: 5px; /* Espaçamento entre o ícone e o nome */
 }
 
 .supporter span {
+
+    padding-right: 50px;
+
     position: relative;
     top: -2px; /* Ajuste o valor conforme necessário */
     font-size: 12px; /* Tamanho do texto */
