@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     let rankingData = [
-        { classe: '', build: '', nome: '', tier: , tempo: '', modo: '', video: '' },
+        { classe: 'Druída', build: 'Storm Slide', nome: 'Junin', tier: 110, tempo: '6:27', modo: 'SC', video: 'https://youtu.be/yAfxU2OhCCo' },
 
     ];
 // { classe: '', build: '', nome: '', tier: 0, tempo: '', modo: 'SC', video: '' },
