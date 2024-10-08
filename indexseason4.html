@@ -81,8 +81,9 @@
 
         <div class="dropdown">
             <select id="seasonSelect">
-                <option value="index.html" selected>Season 5 (Atual)</option>
-                <option value="indexseason4.html">Season 4</option>
+                <option value="indexseason4.html" selected>Season 4</option>
+                <option value="indexseason5.html">Season 5</option>
+                <option value="index.html">Season 6 (Atual)</option>
             </select>
         </div>
 
@@ -144,24 +145,10 @@
 
 
     <script>
-
-document.addEventListener('DOMContentLoaded', function() {
-    const selectElement = document.getElementById('seasonSelect');
-    
-
-    const savedOption = localStorage.getItem('selectedSeason');
-    if (savedOption) {
-        selectElement.value = savedOption;
-    }
-    
-
-    selectElement.addEventListener('change', function() {
-        localStorage.setItem('selectedSeason', this.value);
-        window.location.href = this.value;
-    });
-});
-
-
+        document.getElementById('seasonSelect').addEventListener('change', function() {
+            // Redireciona para a opção selecionada
+            window.location.href = this.value;
+        });
     </script>
 
     <script src="scriptseason4.js"></script>

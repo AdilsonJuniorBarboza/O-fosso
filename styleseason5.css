@@ -182,8 +182,8 @@ section.sobre {
 .diablo {
     font-size: 72px;
     font-weight: 700;
-    color: #d41c1c;
-    text-shadow: 0 0 10px #d41c1c, 0 0 20px #d41c1c, 0 0 30px #d41c1c;
+    color: #D41C1C;
+    text-shadow: 0 0 10px #D41C1C, 0 0 20px #D41C1C, 0 0 30px #D41C1C;
     margin: 20px 0;
 }
 
@@ -242,17 +242,17 @@ table.ranking td a:hover {
 
 .diablo-title {
     font-family: "Rubik Wet Paint", system-ui;
-    text-shadow: #005e08 0 5px 5px;
+    text-shadow: #5e0000 0 5px 5px;
     font-size: 48px;
     font-weight: 700;
     text-align: center;
     color: transparent; /* Torna o texto transparente */
-    background: linear-gradient(45deg, #000000, #40ff27, #000000); /* Adiciona um ciclo de cores */
+    background: linear-gradient(45deg, #000000, #ff0000, #000000); /* Adiciona um ciclo de cores */
     background-size: 300% 300%; /* Necessário para o movimento do gradiente */
     -webkit-background-clip: text;
     background-clip: text;
     animation: gradientMove 2s linear infinite; /* Define a animação */
-    -webkit-text-stroke: 0.1px #032500; /* Adiciona uma borda branca fina ao texto */
+    -webkit-text-stroke: 0.1px #250000; /* Adiciona uma borda branca fina ao texto */
 }
 
 @keyframes gradientMove {
@@ -275,7 +275,7 @@ table.ranking td a:hover {
 .regras h2 {
     font-size: 32px;
     font-weight: 700;
-    color: #31d41c;
+    color: #D41C1C;
     margin-bottom: 10px;
 }
 
@@ -291,7 +291,7 @@ table.ranking td a:hover {
 
 .regras ul li:before {
     content: "•";
-    color: #22d41c;
+    color: #D41C1C;
     display: inline-block;
     width: 1em;
     margin-left: -1em;
